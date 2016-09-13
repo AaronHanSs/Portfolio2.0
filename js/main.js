@@ -2,13 +2,17 @@
 //cacher les liens pour le mobile size et les changer en quelque chose de plus approprié
 
 //crée une balise select
-var $select = $("<select> </select>")
+var $select = $("<select> </select>");
 $("#menu").append($select);
 
 $("#menu a").each(function(){
     var $lien = $(this);
     //crée une balise option
     var $option = $("<option> </option>");
+
+    if($lien.parent().hasClass("selection")){
+      $option.prop("selection", true);
+    }
     //Le texte de l'option est le texte de lien
     //La valeur de l'option est "href"
     $option.val($lien.attr("href"));
@@ -17,12 +21,10 @@ $("#menu a").each(function(){
     $select.append($option);
 });
 
-//crée un boutton
-var $button = $("<button>clique</button>")
-$("#menu").append($button);
 
-$boutton.click(function(){
+//1er titre apparition lente
+$(".T1").hide().show(1300);
+
+$selection.change(function(){
  window.location = $select.val();
 });
-
-//modifier le css pour cacher les liens en petite resolutions
