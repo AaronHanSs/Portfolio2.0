@@ -23,7 +23,7 @@ $("#menu a").each(function(){
 
 
 //1er titre apparition lente
-$(".T1").hide().show(1300);
+$(".T").hide().show(1300);
 
 $selection.change(function(){
  window.location = $select.val();
