@@ -101,6 +101,7 @@ textarea {
 /* ##################################################################### */
 /* Extra small devices (phones, less than 768px) */
 
+
 header{
   background-color: #3E3E3E;
   padding: 20px 0 20px 0;
@@ -137,7 +138,7 @@ section h1 {
 
 .img p{
   font-style: 10px;
-  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Roboto Slab', serif;*/
   padding-top: 10px;
 }
 
@@ -160,21 +161,104 @@ section h1 {
 }
 
 h3{
-  font-family: 'Bungee Shade', cursive;
+  /*font-family: 'Bungee Shade', cursive;*/
+  font-family: 'Lobster', cursive;
 }
 
 .presentation h3,p{
-  margin-left: 5%;
+  /*margin-left: 5%;*/
   padding-top: 30px;
 
 
 }
 
 .presentation p{
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Indie Flower', cursive;
+  /*font-family: 'Yellowtail', cursive;*/
   font-size: 25px;
 }
 
+/*#####################Compétences###################*/
+
+/*################PROGRESS BAR###############*/
+
+.competence div[data-progress] {
+  box-sizing: border-box;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  background: black;
+  background-clip: content-box;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 20px transparent, 0px 0px 0px 20px black;
+  color: yellow;
+}
+
+.competence div[data-progress]:before {
+  position: absolute;
+  content: attr(data-progress);
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.competence div > div {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  background: black;
+  border-radius: 0%;
+}
+
+.quad1 {
+  top: 0px;
+  left: 50%;
+  transform-origin: left bottom;
+  transform: skew(0deg);
+  /* negative */
+}
+
+.quad2 {
+  top: 50%;
+  left: 50%;
+  transform-origin: left bottom;
+  transform: skewY(0deg);
+}
+
+.quad3 {
+  top: 50%;
+  left: 0%;
+  transform-origin: right top;
+  transform: skew(0deg);
+  /* negative */
+}
+
+.quad4 {
+  top: 0%;
+  left: 0%;
+  transform-origin: right bottom;
+  transform: skewY(0deg);
+}
+
+.quad5 {
+
+  right: 10px;
+  left: 0px;
+  /*bottom: 0px;*/
+  top: 0px;
+  height: 1000% !important;
+  width: 1000% !important ;
+  background-color: red !important;
+  z-index:-1;
+}
 
 
 
