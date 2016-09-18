@@ -179,87 +179,31 @@ h3{
 }
 
 /*#####################Compétences###################*/
+.competence{
+  margin: 0 15%;
+}
 
 /*################PROGRESS BAR###############*/
-
-.competence div[data-progress] {
-  box-sizing: border-box;
-  position: relative;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  margin: 40px auto;
-  background: black;
-  background-clip: content-box;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: inset 0px 0px 0px 20px transparent, 0px 0px 0px 20px black;
-  color: yellow;
-}
-
-.competence div[data-progress]:before {
-  position: absolute;
-  content: attr(data-progress);
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  left: 0%;
+.html{
+  border: solid black 1px;
+  width: 80%;
+  border-radius: 20px;
   text-align: center;
-  line-height: 200px;
-  border-radius: 50%;
-  z-index: 4;
+  margin-left: 50px;
+  position: relative;
+  margin-top: 70px;
 }
 
-.competence div > div {
+.bar1{
+  background-color: green !important;
+  width: 80% !important;
+  /*border: solid black 1px !important;*/
+  height: 100% !important;
   position: absolute;
-  height: 50%;
-  width: 50%;
-  background: black;
-  border-radius: 0%;
+  bottom: 0px;
+  border-radius: 20px;
+  z-index: -5;
 }
-
-.quad1 {
-  top: 0px;
-  left: 50%;
-  transform-origin: left bottom;
-  transform: skew(0deg);
-  /* negative */
-}
-
-.quad2 {
-  top: 50%;
-  left: 50%;
-  transform-origin: left bottom;
-  transform: skewY(0deg);
-}
-
-.quad3 {
-  top: 50%;
-  left: 0%;
-  transform-origin: right top;
-  transform: skew(0deg);
-  /* negative */
-}
-
-.quad4 {
-  top: 0%;
-  left: 0%;
-  transform-origin: right bottom;
-  transform: skewY(0deg);
-}
-
-.quad5 {
-
-  right: 10px;
-  left: 0px;
-  /*bottom: 0px;*/
-  top: 0px;
-  height: 1000% !important;
-  width: 1000% !important ;
-  background-color: red !important;
-  z-index:-1;
-}
-
 
 
 
