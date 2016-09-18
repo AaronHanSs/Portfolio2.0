@@ -161,12 +161,10 @@ section h1 {
 }
 
 h3{
-  /*font-family: 'Bungee Shade', cursive;*/
   font-family: 'Lobster', cursive;
 }
 
 .presentation h3,p{
-  /*margin-left: 5%;*/
   padding-top: 30px;
 
 
@@ -174,15 +172,15 @@ h3{
 
 .presentation p{
   font-family: 'Indie Flower', cursive;
-  /*font-family: 'Yellowtail', cursive;*/
   font-size: 25px;
 }
 
 /*#####################Compétences###################*/
 .competence{
-  background-color: #3E3E3E;
   padding-top: 30px;
   padding-bottom: 60px;
+  z-index: -20;
+
 }
 
 /*################PROGRESS BAR###############*/
@@ -195,18 +193,18 @@ h3{
   margin-right: 8%;
   position: relative;
   margin-top: 70px;
+  z-index: 2;
 
 }
 
 .bar1{
   background-color: #47B8DA;
   width: 80% !important;
-  /*border: solid black 1px !important;*/
   height: 100% !important;
   position: absolute;
   bottom: 0px;
   border-radius: 15px;
-  z-index: -5;
+  z-index: -1;
 }
 
 .css{
@@ -218,17 +216,16 @@ h3{
   margin-right: 8%;
   position: relative;
   margin-top: 70px;
-}
+  }
 
 .bar2{
   background-color: #4EA84E ;
   width: 70% ;
-  /*border: solid black 1px !important;*/
   height: 100%;
   position: absolute;
   bottom: 0px;
   border-radius: 15px;
-  z-index: -5;
+  z-index: -2;
 }
 
 .javascript{
@@ -240,17 +237,15 @@ h3{
   margin-right: 8%;
   position: relative;
   margin-top: 70px;
-}
+  }
 
 .bar3{
   background-color: #EFA43A ;
   width: 30% !important;
-  /*border: solid black 1px !important;*/
   height: 100% !important;
   position: absolute;
   bottom: 0px;
   border-radius: 15px;
-  z-index: -5;
 }
 
 .php{
@@ -277,14 +272,11 @@ h3{
   background-color: #5D5D5D;
 }
 
-.T2{
-  color: #fff;
-}
 
 .p2{
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
-  color: #fff;
+  z-index: 2;
 }
 
 
