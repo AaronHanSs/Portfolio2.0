@@ -279,10 +279,30 @@ h3{
   z-index: 2;
 }
 
+/*############################END PROGRESS BAR##############################*/
+.portfolio ul{
+  list-style: none;
+}
 
+.portfolio h3{
+  text-align: center;
+  margin: 40px 0;
+}
+/*####################################MY PORFOLIO##############################*/
+.interface {
+  margin-left: 30%;
+}
 
+.folio{
+  text-align: center;
+}
 
-
+/*.cheat{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}*/
 
 
   /*############################################################################
@@ -337,6 +357,19 @@ h3{
       color: #fff;
     }
 
+    /*####################################MY PORFOLIO##############################*/
+    .portfolio{
+      background-color: #47B8DA
+    }
+
+    .cheat{
+      display: flex;
+      flex-wrap: wrap;
+      width: auto;
+      height: auto;;
+      margin-left: 15%;
+    }
+
    }
 
    /*#######################présentation######################################*/
@@ -353,6 +386,15 @@ h3{
 /* ##################################################################### */
 /* Medium devices (desktops, 992px and up) */
    @media (min-width: 992px) {
+     .interface {
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       margin-left: 0%
+       }
+
+
+
 
    }
 
