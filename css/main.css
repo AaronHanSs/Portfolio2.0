@@ -158,7 +158,7 @@ section h1 {
 
 /*###############################Presentation#################################*/
 
-.presentation{
+#presentation{
   background-color: #EEEEEE;
   margin-top: 135px;
   padding: 50px 0;
@@ -169,13 +169,13 @@ h3{
   font-family: 'Lobster', cursive;
 }
 
-.presentation h3,p{
+#presentation h3,p{
   padding-top: 30px;
 
 
 }
 
-.presentation p{
+#presentation p{
   font-family: 'Indie Flower', cursive;
   font-size: 25px;
 }
@@ -416,7 +416,7 @@ footer p{
 
    /*#######################présentation######################################*/
 
-   .presentation h3,.P1{
+   #presentation h3,.P1{
      margin-left: 25%;
      margin-right: 30px;
    }
