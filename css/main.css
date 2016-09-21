@@ -107,6 +107,11 @@ header{
   padding: 20px 0 20px 0;
 }
 
+body{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 #menu select{
   width: 60%;
   text-align: center;
@@ -289,21 +294,56 @@ h3{
   margin: 40px 0;
 }
 /*####################################MY PORFOLIO##############################*/
+.portfolio{
+  background-color: #47B8DA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .interface {
-  margin-left: 30%;
+  text-align: center;
+}
+
+.cheat{
+  margin-left: 25%;
 }
 
 .folio{
   text-align: center;
 }
 
-/*.cheat{
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-}*/
+/*###############################CONTACT######################################*/
+.contact{
+  background-color: #5D5D5D;
+  padding: 5% 0;
 
+}
+
+.T3{
+  color: #fff;
+}
+
+.P3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: #fff;
+    margin: 0 10%;
+}
+
+/*##########################################FOOTER#############################*/
+footer{
+  background-color: #3E3E3E;
+  padding-bottom: 5px;
+  padding-top: 31px;
+}
+
+footer p{
+ margin: 1% 0 1% 10%;
+ color: #fff;
+ font-family: 'Indie Flower', cursive;
+ font-size: 30px;
+ padding-top: 30px;
+}
 
   /*############################################################################
   ###################################smart 2.0#################################
@@ -359,7 +399,9 @@ h3{
 
     /*####################################MY PORFOLIO##############################*/
     .portfolio{
-      background-color: #47B8DA
+      background-color: #47B8DA;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     .cheat{
